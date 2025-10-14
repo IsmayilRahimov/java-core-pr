@@ -4,4 +4,6 @@ Operators
 3.Arithmetic operators ( + - * / % ) // hesablama
 4.Increment and Decrement operators ( ++ -- )
 5.Assingment operators (+= -= *= /= %= ) // teyinat operatorlari
-6.
+6.Ternary operators
+7.BitWise operators
+8.Instance of operators
