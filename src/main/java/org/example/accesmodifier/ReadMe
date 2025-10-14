@@ -1,0 +1,5 @@
+Access modifier
+1.Default - yalniz daxili paket sevyesinde cagirmaq mumkundur:
+2.Public - her yerden cagirila biler ayri paket ve ayri claslardanda cagirmag mumkundu :
+3.Private - yanliz oz class seviyesinde cagirmaq mumkundur diger  clas ve paketlere yalniz getter setter ile olar:
+4.Protected - yalniz oz paket sevyesinde ve diger paketlerde ise subclass olmadan cagirmaq mumkun deyil
