@@ -14,5 +14,8 @@ public class TestingAccess {
         ProtectedChild p2 = new ProtectedChild();
         p1.showMessage("Ali");
 
+        DefaultModifier s1 = new DefaultModifier();
+        s1.name = "Anar";
+        s1.getMessage("Anar");
     }
 }
