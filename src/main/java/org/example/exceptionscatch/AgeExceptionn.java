@@ -1,7 +1,7 @@
 package org.example.exceptionscatch;
 
 public class AgeExceptionn extends Exception {
-    public AgeExceptionn(String message){
-        super(message);
+    public AgeExceptionn(String message) {
+        super(message + " Age of Exception xeta;");
     }
 }
