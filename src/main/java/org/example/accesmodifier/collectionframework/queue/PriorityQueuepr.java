@@ -1,4 +1,4 @@
-package org.example.collectionframework.queue;
+package org.example.accesmodifier.collectionframework.queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

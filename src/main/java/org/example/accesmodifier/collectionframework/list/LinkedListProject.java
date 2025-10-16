@@ -1,4 +1,4 @@
-package org.example.collectionframework.list;
+package org.example.accesmodifier.collectionframework.list;
 
 import java.util.LinkedList;
 import java.util.List;

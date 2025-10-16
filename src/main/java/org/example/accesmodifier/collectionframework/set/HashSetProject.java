@@ -1,4 +1,4 @@
-package org.example.collectionframework.set;
+package org.example.accesmodifier.collectionframework.set;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package org.example.collectionframework.map;
+package org.example.accesmodifier.collectionframework.map;
 
 import java.util.Map;
 import java.util.TreeMap;
