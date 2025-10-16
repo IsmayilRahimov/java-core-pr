@@ -1,0 +1,8 @@
+Collection framework nedir? - melumatlari saxlamaq,idare etmek, islemek ucun hazir sinifler ve interfaceler  toplusudur:
+1.List (Linked List , Array List ,Vector , Stack)
+2.Set (HashSet , TreeSet, LinkedHashSet )
+4.Map (HashMap , TreeMap , LinkedHashMap ,HashTable, WeakHashMap)
+
+1-List (List siyahi kimidir , tekrarlanan deyerleri saxlayir, siralama ardicilliqla gelir)
+2-Set (Set unikal siyahi kimidir , eyni ad 2-ci defe tekrar olunmur,Tree Set yalniz ardicilligi qoruyur:)
+3-Map ( Map key value uzerinden aparilir )
