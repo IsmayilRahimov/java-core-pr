@@ -12,5 +12,6 @@ public class IchFor {
         num.add(5);
 
         num.removeIf(n -> n.equals(1));
+        System.out.println(num);
     }
 }

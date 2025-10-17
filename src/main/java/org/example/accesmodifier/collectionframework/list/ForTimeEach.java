@@ -15,7 +15,6 @@ public class ForTimeEach {
         for (Integer eded : num) { // num siyahsini eded deyisenine hamsini veririk
             if (!eded.equals(2)) { // ifin icersinde eger eded deyisenin 2ci yoxdusa
                 yeni.add(eded); // ededin icerisine
-
             }
         }
     }
