@@ -25,5 +25,9 @@ public class OptionalProject {
         Optional<String> m4 = Optional.ofNullable("Vaqif");
         Optional<String> m5 = m4.map(String::toUpperCase);
         System.out.println(m5.orElse(null));
+        Optional<String> mis = Optional.ofNullable(null);
+        String var = mis.orElse("Samir");
+        System.out.println(var);
+
     }
 }
