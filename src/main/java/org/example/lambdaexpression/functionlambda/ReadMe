@@ -1,0 +1,4 @@
+Function Lambda
+
+Function<Integer,String> num = n -> (n%2==0) ? "Cut" : "Tek";
+num.apply(10);

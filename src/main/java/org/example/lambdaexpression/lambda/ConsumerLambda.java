@@ -18,5 +18,8 @@ public class ConsumerLambda {
         Consumer<String> adli = a -> System.out.println("Adli:" + a);
         adli.accept("sa,mir:l");
 
+        Consumer<String> names = n-> System.out.println(n + "Name adi");
+        names.accept("Azar:l");
+
     }
 }

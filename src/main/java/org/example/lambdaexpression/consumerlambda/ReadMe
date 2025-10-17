@@ -1,0 +1,3 @@
+ConsumerLambda
+Consumer<String> name = n-> sout(n+"Name");
+name.accept("AZAT");

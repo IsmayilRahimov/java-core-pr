@@ -1,0 +1,3 @@
+BiFunctionalLambda
+BiFunction<Integer,Integer,Integer> num = (a,b) -> a*b;
+num.apply(10,20);

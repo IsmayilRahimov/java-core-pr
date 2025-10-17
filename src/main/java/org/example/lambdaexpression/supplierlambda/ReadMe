@@ -1,0 +1,2 @@
+SupplierLambda
+Supplier<Double> doublenum = () -> Math.random();

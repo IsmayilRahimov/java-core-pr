@@ -1,0 +1,3 @@
+PredicateLambda
+Predicate<Integer> num = n-> n%2 == 0;
+sout(num.test(10));
