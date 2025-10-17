@@ -18,6 +18,24 @@ public class LambdaOperators {
 
         for (Integer numbers : eded) {
             System.out.println("Siralama ile " + numbers);
+
+
+            List<String> names = new ArrayList<>();
+            names.add("A");
+            names.add("B");
+            names.add("C");
+            names.add("F");
+            System.out.println(names);
+
+            names.forEach(n -> System.out.println(n));
+            names.removeIf(m -> m.equals("A"));
+            System.out.println(names);
+
+            for (String nam : names) {
+                System.out.println(nam);
+            }
+
+
         }
     }
 }
