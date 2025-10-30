@@ -15,6 +15,11 @@ public class OperatScan {
         } else {
             System.out.println("Yalnis");
         }
+        if (eded%2==0){
+            System.out.println("cut");
+        }else {
+            System.out.println("tek");
+        }
 
     }
 }
