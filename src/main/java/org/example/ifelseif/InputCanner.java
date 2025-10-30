@@ -18,7 +18,10 @@ public class InputCanner {
             System.out.println("Sizin baliniz 0 -dan asagi oldugu ucun kesildiniz:" + ortalama);
         } else if (ortalama < 51) {
             System.out.println("Siz novbeti defe imtahan vermeli olacaqsiz:" + ortalama);
+        } else {
+            System.out.println("");
         }
+
 
     }
 }
