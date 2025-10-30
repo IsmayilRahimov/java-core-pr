@@ -6,6 +6,7 @@ public class Main {
         Parent p1 = new Child();
         p1.parentVariable = "A";
         ((Child) p1).childVariable = "B";
+        System.out.println(p1.getClass().getSimpleName());
 
         //runtime polymorpishm
     }
