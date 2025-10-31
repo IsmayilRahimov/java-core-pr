@@ -19,13 +19,18 @@ public class CongratsIfFor {
 //
 //            }
 //        }
+        if (eded2 < eded1) {
+            System.out.println("1-ci ededi kicik yazin \nDuzgun isleyin 1 ci eded kicik olmalidir:");
+            main(args);
+        } else {
 
-        int k = eded1;
-        while (k <= eded2) {
-            if (k % 2 == 0) {
-                System.out.println(k);
+            int k = eded1;
+            while (k <= eded2) {
+                if (k % 2 == 0) {
+                    System.out.println(k);
+                }
+                k++;
             }
-            k++;
         }
     }
 }
