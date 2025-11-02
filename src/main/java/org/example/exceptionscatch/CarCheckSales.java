@@ -2,7 +2,7 @@ package org.example.exceptionscatch;
 
 import java.util.Scanner;
 
-public class CarCheckSales {
+public class  CarCheckSales {
 
     public static void showSpeed(int age, double speed) throws AgeExceptionn, SpeedException {
         boolean hasError = false;

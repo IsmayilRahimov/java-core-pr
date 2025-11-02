@@ -14,5 +14,6 @@ public class FunctionStream {
                 .map(n -> n.toLowerCase())
                 .toList();
         System.out.println(oldnames);
+
     }
 }
