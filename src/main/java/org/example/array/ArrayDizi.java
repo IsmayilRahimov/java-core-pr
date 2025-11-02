@@ -7,5 +7,9 @@ public class ArrayDizi {
         System.out.println(arr[2]);
         System.out.println(arrName[1]);
 
+        for (int i = 0; i < arr.length; i++) {
+
+        }
+
     }
 }
