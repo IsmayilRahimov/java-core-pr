@@ -22,6 +22,14 @@ public class ParseInteger {
         double dondaliqlieded = Double.valueOf(m1);
         System.out.println(dondaliqlieded);
 
+        double ondakiEded = 225.222;
+        int tamEded = (int) ondakiEded;
+        System.out.println(tamEded);
+
+        float f = 2.9F;
+        int tamSayi = (int) f;
+        System.out.println(tamSayi);
+
 
     }
 }
