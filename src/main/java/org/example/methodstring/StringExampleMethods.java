@@ -16,5 +16,9 @@ public class StringExampleMethods {
         String[] cumleler = cumle.split(" ");
         System.out.println(cumleler[0]);
         System.out.println(cumleler[1]);
+        String sozler = "Xos geldiniz Tesekkur";
+        String[] m = sozler.split(" ");
+        System.out.println(m[0]);
+        System.out.println(m[2]);
     }
 }
