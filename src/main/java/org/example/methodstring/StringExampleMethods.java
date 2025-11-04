@@ -20,5 +20,13 @@ public class StringExampleMethods {
         String[] m = sozler.split(" ");
         System.out.println(m[0]);
         System.out.println(m[2]);
+        System.out.println(m.length);
+        System.out.println(sozler.length());
+        String balaca = sozler.toLowerCase();
+        System.out.println(balaca);
+        String a = sozler.toLowerCase();
+        System.out.println(a);
+        String boyuk = sozler.toUpperCase();
+        System.out.println(boyuk);
     }
 }
