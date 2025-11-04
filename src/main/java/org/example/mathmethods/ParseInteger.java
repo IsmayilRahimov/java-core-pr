@@ -13,6 +13,15 @@ public class ParseInteger {
         int deyis = Integer.parseInt(String.valueOf(yenieded5));
         System.out.println(deyis);
 
+        String m = "123456789";
+        long newEded = Long.valueOf(m);
+        System.out.println(newEded);
+        String m1 = "2.4";
+        float fOndaliqlieded = Float.parseFloat(m1);
+        System.out.println(fOndaliqlieded);
+        double dondaliqlieded = Double.valueOf(m1);
+        System.out.println(dondaliqlieded);
+
 
     }
 }
