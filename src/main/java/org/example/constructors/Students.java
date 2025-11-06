@@ -38,6 +38,7 @@ public class Students {
         return super.equals(obj);
     }
 
+
     public static void main(String[] args) {
         Students s1 = new Students("Azad", 21);
         System.out.println(s1);
