@@ -17,12 +17,11 @@ public class ScannerInputPrivate {
         String surname = input.nextLine();
 
 
-
-
         m2.setName(name);
         m2.setAge(age);
         m2.setSalary(salary);
         m2.setSurname(surname);
+        System.out.println(m2);
     }
 
 }

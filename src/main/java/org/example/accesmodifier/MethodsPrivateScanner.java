@@ -55,4 +55,9 @@ public class MethodsPrivateScanner {
         this.salary = salary;
     }
 
+    @Override
+    public String toString() {
+        String all = name + ":Ad " + surname + ":Soyad " + salary + ":Maas " + age + ":Dogum iliniz:";
+        return all;
+    }
 }
