@@ -22,6 +22,9 @@ class StudentsTest {
     void setAge() {
     }
 
+    public StudentsTest() {
+    }
+
     @Test
     void testToString() {
     }
