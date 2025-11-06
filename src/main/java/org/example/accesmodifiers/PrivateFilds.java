@@ -20,5 +20,7 @@ public class PrivateFilds {
         PrivateFilds p2 = new PrivateFilds();
         p2.name = "Anar";
         System.out.println(p2.name);
+        PrivateGetterMethods m9 = new PrivateGetterMethods();
+
     }
 }
