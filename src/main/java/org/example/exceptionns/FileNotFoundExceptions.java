@@ -9,10 +9,15 @@ public class FileNotFoundExceptions {
     public static void main(String[] args) {
         FileOutputStream fileOutputStream = null;
         try {
-            fileOutputStream = new FileOutputStream("Test.txt");
+            fileOutputStream = new FileOutputStream("Test.txt", true);
+            fileOutputStream.write(77);
+            fileOutputStream.write(78);
         } catch (FileNotFoundException e) {
             System.out.println("Dosya tapilmadi! " + e);
+        } catch (IOException e) {
+            System.out.println("Dosyaya yazilirken bir xeta oldu!");
         } finally {
+
             try {
                 if (fileOutputStream != null)
                     fileOutputStream.close();
