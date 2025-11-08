@@ -12,6 +12,14 @@ public class FileNotFoundExceptions {
             fileOutputStream = new FileOutputStream("Test.txt", true);
             fileOutputStream.write(77);
             fileOutputStream.write(78);
+
+            byte[] arr = {65, 66, 67, 68};
+            fileOutputStream.write(arr);
+
+            String text = "Ragimov Ismayil";
+            byte[] textArr = text.getBytes();
+
+            fileOutputStream.write(textArr);
         } catch (FileNotFoundException e) {
             System.out.println("Dosya tapilmadi! " + e);
         } catch (IOException e) {
