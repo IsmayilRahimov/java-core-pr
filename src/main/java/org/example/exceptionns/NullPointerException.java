@@ -8,8 +8,10 @@ public class NullPointerException {
             message = null;
             message = message.toUpperCase();
             System.out.println(message);
+        } catch (ArithmeticException e) {
+            System.out.println("Bir xeta oldu! " + e);
         } catch (java.lang.NullPointerException e) {
-            System.out.println(e + " Xeta!");
+            System.out.println("Null xeta bas verdi! " + e);
         } finally {
             System.out.println("Finally blok has been ready!");
         }
