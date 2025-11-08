@@ -9,9 +9,9 @@ public class ArrayIndexBounds {
             int sayi = array[5];
             System.out.println("5-ci indekse beraberdir:");
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Array bounds xetasi!");
+            System.out.println("Array bounds xetasi!" +e);
         } catch (ArithmeticException e) {
-            System.out.println("Arithmetic xeta!");
+            System.out.println("Arithmetic xeta!" + e);
         }
     }
 }
