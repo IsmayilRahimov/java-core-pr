@@ -22,4 +22,6 @@ public class AllDataTypes {
         char masin = 'F';
         System.out.println(masin);
     }
+
+
 }
