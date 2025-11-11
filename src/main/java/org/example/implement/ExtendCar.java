@@ -8,7 +8,7 @@ public class ExtendCar  extends Cars{
     }
 
     @Override
-    void legacy() {
+     void legacy() {
 
     }
 }
