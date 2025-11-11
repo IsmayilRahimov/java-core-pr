@@ -8,7 +8,7 @@ public class OcaArrayQuestions {
         int sum = 0;
 
         for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0) {
+            if (array[i] % 2 == 0) {  // 1+3=4
                 continue;
             }
             sum += array[i];
