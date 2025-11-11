@@ -6,7 +6,10 @@ public class MainAbstraction {
 
 
         Employee e = new Designer();
-        e.show();
+        e.show(); // upcasting
+        e = new Developer();
+        Developer developer = (Developer) e;  // downcasting
+        developer.test();
 
     }
 }

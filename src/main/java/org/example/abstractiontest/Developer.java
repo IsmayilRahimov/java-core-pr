@@ -6,4 +6,8 @@ public class Developer extends Employee {
         System.out.println("Developerin maasi 2000:");
     }
 
+    public void test() {
+        System.out.println("Test");
+    }
+
 }
