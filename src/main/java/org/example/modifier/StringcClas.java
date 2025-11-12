@@ -12,5 +12,12 @@ public class StringcClas {
         System.out.println(sb);
 
 
+        try {
+            String name = null;
+            System.out.println(name.length());
+
+        } catch (NullPointerException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
