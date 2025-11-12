@@ -11,5 +11,9 @@ public class ArrayLine {
         System.out.println(Arrays.toString(array));
         int[][] num = {{1, 3}, {1, 4}};
         System.out.print(Arrays.deepToString(num));
+
+        String[] adlar = new String[5];
+
+
     }
 }
