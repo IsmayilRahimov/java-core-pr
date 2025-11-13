@@ -7,9 +7,15 @@ public class Crepeer extends Enemy {
     }
 
     public static final int CONSTANT_FINAL = 25;
+    public static final int MAX_SPEED = 250;
 
-    public void showConstant() {
+    public static final void showConstant() {
         System.out.println(CONSTANT_FINAL);
+        System.out.println(MAX_SPEED);
+    }
+
+    public static void main(String[] args) {
+        showConstant();
     }
 
 
