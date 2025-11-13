@@ -1,4 +1,4 @@
-package org.example.finals;
+package org.example.generics;
 
 public class Box<T> {
     private T value;
@@ -15,6 +15,7 @@ public class Box<T> {
     public static void main(String[] args) {
         Box<String> box1 = new Box<>();
         box1.set("Salam");
+
         System.out.println(box1.get());
     }
 }
