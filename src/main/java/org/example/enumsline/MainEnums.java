@@ -10,7 +10,7 @@ public class MainEnums {
         }
 
         System.out.println(Season.valueOf("SPRING"));
-        System.out.println(Season.valueOf("SUMMER").ordinal());
+        System.out.println(Season.valueOf("SUMMER").ordinal()    );
 
     }
 }
