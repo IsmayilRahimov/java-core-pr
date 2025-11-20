@@ -15,6 +15,8 @@ public class GenericsClassUpl<T> {
         GenericsClassUpl<String> gen = new GenericsClassUpl<>();
         gen.set("Generics set Methods");
         System.out.println(gen.value);
+
+
         GenericsClassUpl<Integer> generics2 = new GenericsClassUpl<>();
         generics2.set(404);
         System.out.println(generics2.getValue());
