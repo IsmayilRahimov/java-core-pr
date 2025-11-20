@@ -15,5 +15,6 @@ public class GenericClassImp<T> implements Data<T> {
     public void add(T item) {
         list.add(item);
 
+
     }
 }
