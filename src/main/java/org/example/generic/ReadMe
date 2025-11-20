@@ -1,0 +1,13 @@
+T → Type
+
+E → Element
+
+K → Key
+
+V → Value
+
+? → unknown type
+
+? extends T → T və onun alt sinifləri
+
+? super T → T və onun üst sinifləri
